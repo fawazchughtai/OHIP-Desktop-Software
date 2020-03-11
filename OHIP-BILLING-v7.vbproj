@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <ProductVersion>8.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D7503FCC-A998-4798-A3F7-4CC7A880AC7D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>OHIP-BILLING</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>OOFSL.OOFSL_main</StartupObject>
+    <AssemblyMajorVersion>1</AssemblyMajorVersion>
+    <AssemblyMinorVersion>0</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>1</AssemblyRevisionNumber>
+    <GenerateRevisionNumber>True</GenerateRevisionNumber>
+    <AssemblyCompanyName>Aksure Networks Corporation</AssemblyCompanyName>
+    <StartWithIE>False</StartWithIE>
+    <RootNamespace>OOFSL</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>ftp://184.168.16.1/release/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.reno-group.com/release/</InstallUrl>
+    <ProductName>ohip-billing</ProductName>
+    <PublisherName>ohip-billing</PublisherName>
+    <SuiteName>www.ohip-billing.com</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>5.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>OHIP-BILLING.xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>C:\Data\Dev_space\bin-dev\</OutputPath>
+    <DocumentationFile>OHIP-BILLING.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>Full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0C34B10FA25912612AD4D2B3D5A843A81A07E046</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>aksure_cert.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>OhipBilling.ICO</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Development\bin\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>OHIP-BILLING.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\..\..\..\..\..\Development\OHIP-V6.0.5\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>OHIP-BILLING.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Text</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.ctlUSBHID">
+      <HintPath>.\AxInterop.ctlUSBHID.dll</HintPath>
+    </Reference>
+    <Reference Include="dbAutoTrack.DataReports">
+      <HintPath>.\dbAutoTrack.DataReports.dll</HintPath>
+    </Reference>
+    <Reference Include="dbAutoTrack.DataReports.Design">
+      <HintPath>.\dbAutoTrack.DataReports.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="dbAutoTrack.DataReports.Export">
+      <HintPath>.\dbAutoTrack.DataReports.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="dbAutoTrack.DataReports.Viewer">
+      <HintPath>.\dbAutoTrack.DataReports.Viewer.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin-dev\EnvDTE.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.6.9.12\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Net.FtpClient, Version=1.0.5824.34026, Culture=neutral, PublicKeyToken=fa4be07daa57c2b7, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.FtpClient.1.0.5824.34026\lib\net40\System.Net.FtpClient.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="WinSCPnet, Version=1.6.5.9730, Culture=neutral, PublicKeyToken=2271ec4a3c56d0bf, processorArchitecture=MSIL">
+      <HintPath>packages\WinSCP.5.15.3\lib\net\WinSCPnet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activation-module\ActivationClass.vb" />
+    <Compile Include="Backup-module\FTPBackup.Designer.vb">
+      <DependentUpon>FTPBackup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Backup-module\FTPBackup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Backup-module\FTPClient.vb" />
+    <Compile Include="DB_update-module\sys_update_status.Designer.vb">
+      <DependentUpon>sys_update_status.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DB_update-module\sys_update_status.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDT-module\CreateOHIPFile.vb" />
+    <Compile Include="EDT-module\EDTFileClass.vb" />
+    <Compile Include="Patient-module\patient_management.Designer.vb">
+      <DependentUpon>patient_management.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient-module\patient_management.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient-module\patient_entry.Designer.vb">
+      <DependentUpon>patient_entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient-module\patient_entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient-module\patient_obj.vb" />
+    <Compile Include="Physician-module\FillSpecialtyListBoxClass.vb" />
+    <Compile Include="Physician-module\FillReferralListBoxClass.vb" />
+    <Compile Include="Code tables\DiagnosisClass.vb" />
+    <Compile Include="Code tables\FillDiagnosisListBoxClass.vb" />
+    <Compile Include="Code tables\FillServiceCodesListBoxClass.vb" />
+    <Compile Include="Report-module\Error_rpt.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report-module\Claim_detail_rpt.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Claim-module\Claim_management.Designer.vb">
+      <DependentUpon>Claim_management.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Claim-module\Claim_management.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Claim-module\Claim_entry.Designer.vb">
+      <DependentUpon>Claim_entry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Claim-module\Claim_entry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report-module\open_claims_rpt.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report-module\MOH_msg_Rpt.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report-module\Reconciliation_rpt.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report-module\frmViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report-module\summary_payments_rpt.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report-module\TransactionHistory.Designer.vb">
+      <DependentUpon>TransactionHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report-module\TransactionHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report-module\TransactionHistoryClass.vb" />
+    <Compile Include="Service References\Dr_validation\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Shared-module\CommonClass.vb" />
+    <Compile Include="Code tables\FillServiceListBoxClass.vb" />
+    <Compile Include="Patient-module\OHIPValidation.vb" />
+    <Compile Include="Physician-module\PhysicianClass.vb" />
+    <Compile Include="EDT-module\ReconciliationRecordClass.vb" />
+    <Compile Include="Code tables\ServiceCodes.vb" />
+    <Compile Include="DB_update-module\VerifySQLScript.vb" />
+    <Compile Include="Main-module\about_frm.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>about_frm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main-module\about_frm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report-module\BatchReport.Designer.vb">
+      <DependentUpon>BatchReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report-module\BatchReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDT-module\ClaimFileViewer.Designer.vb">
+      <DependentUpon>ClaimFileViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EDT-module\ClaimFileViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report-module\ErrorReport.Designer.vb">
+      <DependentUpon>ErrorReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report-module\ErrorReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Software_update-module\Updater.Designer.vb">
+      <DependentUpon>Updater.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Software_update-module\Updater.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report-module\MessageText.Designer.vb">
+      <DependentUpon>MessageText.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report-module\MessageText.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Physician-module\ListSecialtyCodes.Designer.vb">
+      <DependentUpon>ListSecialtyCodes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Physician-module\ListSecialtyCodes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report-module\MOHMessages.Designer.vb">
+      <DependentUpon>MOHMessages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report-module\MOHMessages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code tables\Diagnosis.Designer.vb">
+      <DependentUpon>Diagnosis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Code tables\Diagnosis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code tables\ListDiagnosisCodes.Designer.vb">
+      <DependentUpon>ListDiagnosisCodes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Code tables\ListDiagnosisCodes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Physician-module\ListPhysicianReferral.Designer.vb">
+      <DependentUpon>ListPhysicianReferral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Physician-module\ListPhysicianReferral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code tables\ListServiceCodes.Designer.vb">
+      <DependentUpon>ListServiceCodes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Code tables\ListServiceCodes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Physician-module\PhysicianInfo.Designer.vb">
+      <DependentUpon>PhysicianInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Physician-module\PhysicianInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDT-module\Reconciliation.Designer.vb">
+      <DependentUpon>Reconciliation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EDT-module\Reconciliation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Physician-module\Referral.Designer.vb">
+      <DependentUpon>Referral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Physician-module\Referral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Physician-module\SelectMRICode.Designer.vb">
+      <DependentUpon>SelectMRICode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Physician-module\SelectMRICode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code tables\Services.Designer.vb">
+      <DependentUpon>Services.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Code tables\Services.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main-module\OOFSL_main.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>OOFSL_main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main-module\OOFSL_main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDT-module\Submission.Designer.vb">
+      <DependentUpon>Submission.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EDT-module\Submission.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Backup-module\SystemFilePaths.Designer.vb">
+      <DependentUpon>SystemFilePaths.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Backup-module\SystemFilePaths.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shared-module\CommonVariables.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <EmbeddedResource Include="Backup-module\FTPBackup.resx">
+      <DependentUpon>FTPBackup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DB_update-module\sys_update_status.resx">
+      <DependentUpon>sys_update_status.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main-module\about_frm.resX">
+      <DependentUpon>about_frm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient-module\patient_management.resx">
+      <DependentUpon>patient_management.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient-module\patient_entry.resx">
+      <DependentUpon>patient_entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\BatchReport.resx">
+      <DependentUpon>BatchReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDT-module\ClaimFileViewer.resx">
+      <DependentUpon>ClaimFileViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\Error_rpt.resx">
+      <DependentUpon>Error_rpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\Claim_detail_rpt.resx">
+      <DependentUpon>Claim_detail_rpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Claim-module\Claim_management.resx">
+      <DependentUpon>Claim_management.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Claim-module\Claim_entry.resx">
+      <DependentUpon>Claim_entry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\open_claims_rpt.resx">
+      <DependentUpon>open_claims_rpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\MOH_msg_Rpt.resx">
+      <DependentUpon>MOH_msg_Rpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\Reconciliation_rpt.resx">
+      <DependentUpon>Reconciliation_rpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\ErrorReport.resx">
+      <DependentUpon>ErrorReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\frmViewer.resx">
+      <DependentUpon>frmViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\summary_payments_rpt.resx">
+      <DependentUpon>summary_payments_rpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\TransactionHistory.resx">
+      <DependentUpon>TransactionHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Software_update-module\Updater.resx">
+      <DependentUpon>Updater.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Physician-module\ListSecialtyCodes.resx">
+      <DependentUpon>ListSecialtyCodes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\MessageText.resx">
+      <DependentUpon>MessageText.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report-module\MOHMessages.resx">
+      <DependentUpon>MOHMessages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code tables\Diagnosis.resx">
+      <DependentUpon>Diagnosis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code tables\ListDiagnosisCodes.resx">
+      <DependentUpon>ListDiagnosisCodes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Physician-module\ListPhysicianReferral.resx">
+      <DependentUpon>ListPhysicianReferral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code tables\ListServiceCodes.resx">
+      <DependentUpon>ListServiceCodes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main-module\OOFSL_main.resX">
+      <DependentUpon>OOFSL_main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Physician-module\PhysicianInfo.resx">
+      <DependentUpon>PhysicianInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDT-module\Reconciliation.resx">
+      <DependentUpon>Reconciliation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Physician-module\Referral.resx">
+      <DependentUpon>Referral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Physician-module\SelectMRICode.resx">
+      <DependentUpon>SelectMRICode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code tables\Services.resx">
+      <DependentUpon>Services.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDT-module\Submission.resx">
+      <DependentUpon>Submission.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup-module\SystemFilePaths.resx">
+      <DependentUpon>SystemFilePaths.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\bin-dev.zip" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\DataSources\System.Data.DataSet.datasource" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Service References\Dr_validation\OOFSL.Dr_validation.messages.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Dr_validation\service.wsdl" />
+    <None Include="Service References\Dr_validation\service.xsd" />
+    <None Include="Service References\Dr_validation\service1.xsd" />
+    <None Include="Service References\Dr_validation\WcfService1.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="inputfiles\TextFile1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="outputfiles\TextFile1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\m1_fixNL.sql" />
+    <Content Include="Scripts\m2_fixPQ.sql" />
+    <Content Include="Scripts\m3_Fix_RMB.sql" />
+    <Content Include="Scripts\m4_backup_tbl.sql" />
+    <Content Include="Scripts\m5_recon1.sql" />
+    <Content Include="Scripts\m6_recon2.sql" />
+    <Content Include="Scripts\m7_recon3.sql" />
+    <Content Include="Scripts\m8_droptemp.sql" />
+    <Content Include="Scripts\m9_droptemprec.sql" />
+    <None Include="Service References\Dr_validation\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\Dr_validation\configuration.svcinfo" />
+    <None Include="Service References\Dr_validation\configuration91.svcinfo" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="OhipBilling.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\Dr_validation\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="packages\WinSCP.5.15.3\build\WinSCP.targets" Condition="Exists('packages\WinSCP.5.15.3\build\WinSCP.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\WinSCP.5.15.3\build\WinSCP.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\WinSCP.5.15.3\build\WinSCP.targets'))" />
+  </Target>
+</Project>

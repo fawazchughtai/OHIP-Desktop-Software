@@ -1,0 +1,63 @@
+C:\Data\Dev_space\bin-dev\OHIP-BILLING.exe.config
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OHIP-BILLING-v7.vbprojResolveAssemblyReference.cache
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.FTPBackup.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.sys_update_status.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.about_frm.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.patient_management.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.patient_entry.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.BatchReport.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.ClaimFileViewer.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Error_rpt.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Claim_detail_rpt.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Claim_management.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Claim_Entry.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.open_claims_rpt.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.MOH_msg_Rpt.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Reconciliation_rpt.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.ErrorReport.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.frmViewer.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.summary_payments_rpt.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.TransactionHistory.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Updater.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.ListSpecialtyCodes.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.MessageText.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.MOHMessages.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Diagnosis.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.ListDiagnosisCodes.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.ListPhysicianReferral.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.ListServiceCodes.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.OOFSL_main.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.PhysicianInfo.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Reconciliation.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Referral.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.SelectMRICode.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Services.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Submission.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.SystemFilePaths.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OOFSL.Resources.resources
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OHIP-BILLING-v7.vbproj.GenerateResource.Cache
+C:\Data\Dev_space\bin-dev\WinSCP.exe
+C:\Data\Dev_space\bin-dev\OHIP-BILLING.exe
+C:\Data\Dev_space\bin-dev\OHIP-BILLING.pdb
+C:\Data\Dev_space\bin-dev\OHIP-BILLING.xml
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OHIP-BILLING.exe
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OHIP-BILLING.xml
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\obj\Debug\OHIP-BILLING.pdb
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\OHIP-BILLING.exe.config
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\OHIP-BILLING.exe.config
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\WinSCP.exe
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\inputfiles\TextFile1.txt
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\outputfiles\TextFile1.txt
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\OHIP-BILLING.exe
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\OHIP-BILLING.pdb
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\OHIP-BILLING.xml
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\AxInterop.ctlUSBHID.dll
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\dbAutoTrack.DataReports.Design.dll
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\dbAutoTrack.DataReports.dll
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\dbAutoTrack.DataReports.Export.dll
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\dbAutoTrack.DataReports.Viewer.dll
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\MySql.Data.dll
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\System.Net.FtpClient.dll
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\WinSCPnet.dll
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\System.Net.FtpClient.xml
+C:\Data\UPWORK_Clients_Docs\Mustafa Attar\OHIP-BILLING\OHIP-BILLING\bin\Debug\Interop.ctlUSBHID.dll

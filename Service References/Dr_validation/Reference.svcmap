@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1a63d664-46b8-4c30-b8fb-e1a385c50df6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://aksure.dyndns-ip.com/ohip-service/check_update.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="de753afe-3942-4b59-a059-4d349103b150" SourceId="1" SourceUrl="https://aksure.dyndns-ip.com/ohip-service/check_update.svc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="ba9f6ac1-60f8-43be-a427-267407ed5923" SourceId="1" SourceUrl="https://aksure.dyndns-ip.com/ohip-service/check_update.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="5f6cda7c-8ce9-4fe7-90fd-7a7ce318a378" SourceId="1" SourceUrl="https://aksure.dyndns-ip.com/ohip-service/check_update.svc/mex" />
+    <MetadataFile FileName="WcfService1.xsd" MetadataType="Schema" ID="69c03e95-83c2-487f-a5d4-82279397cd4d" SourceId="1" SourceUrl="https://aksure.dyndns-ip.com/ohip-service/check_update.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
