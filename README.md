@@ -1,2 +1,2 @@
-# OHIP-VB
-OHIP VB application
+# OHIP Desktop Software
+A clinical Ontario Health Insurance Plan Desktop Software based on Canadian MOH
